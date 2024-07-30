@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<!-- saved from url=(0758)https://login.pandape.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DHcm.Holmes%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520HCM%26state%3DOpenIdConnect.AuthenticationProperties%253DyO0yESLogFADZgZBh3ovUXgd4CB6tvWX7Do03dj6MvSieRGsfzR8m7L4edXdEt9D90H78Q9jmz-u6OtuLV0EfRBZQqRzVlYbDOqdweJZxnIR2J6gzHgu4H0pACRHK1zsJSqJhM8teq7SVOQWp56Ack9MWe8%26response_mode%3Dform_post%26nonce%3D638579502050857899.ZmUwZDc2OTYtZWRjYy00ZGVjLWIzZjAtZjY0NmE1YjMwNjA4OWYzN2E3NzMtZmU5OS00ZWQyLTgyMTEtODdhZTk5NWRiNWM1%26redirect_uri%3Dhttps%253A%252F%252Flandsteiner.hcm.pandape.com%252Fsignin-oidc-ats%26post_logout_redirect_uri%3Dhttps%253A%252F%252Flandsteiner.hcm.pandape.com%26x-client-SKU%3DID_NET461%26x-client-ver%3D5.3.0.0 -->
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="origin-trial"
+        content="A/kargTFyk8MR5ueravczef/wIlTkbVk1qXQesp39nV+xNECPdLBVeYffxrM8TmZT6RArWGQVCJ0LRivD7glcAUAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZzIiLCJleHBpcnkiOjE3NDIzNDIzOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PandaPé </title>
+    <link rel="icon" href="https://login.pandape.com/favicon.ico">
+    <link rel="stylesheet" href="./PandaPé_files/icon.css">
+    <link rel="stylesheet" href="./PandaPé_files/source-sans-pro.css">
+    <link rel="stylesheet" href="./PandaPé_files/pandape.min.css">
+
+    <!-- Google Tag Manager -->
+    <script type="text/javascript" async="" charset="utf-8" src="./PandaPé_files/recaptcha__es_419.js.descarga"
+        crossorigin="anonymous"
+        integrity="sha384-4DymIH9y5gYkVHDhZ/o99RinIvgg0dva07BgRL/7VdbHG4eBxeTVWGhBbwHKS85a"></script>
+    <script async="" src="./PandaPé_files/gtm.js.descarga"></script>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K9TBLG7');</script>
+    <!-- End Google Tag Manager -->
+    <style>
+        @media (min-width: 992px) {
+            .account-background {
+                background-image: url('/images/account/bg-login.jpg');
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+
+        .app-body {
+            margin-top: 0 !important;
+        }
+    </style>
+    <script src="./PandaPé_files/api.js.descarga"></script>
+</head>
+
+<body class="app  pace-done">
+    <div class="pace  pace-inactive">
+        <div class="pace-progress" data-progress-text="100%" data-progress="99"
+            style="transform: translate3d(100%, 0px, 0px);">
+            <div class="pace-progress-inner"></div>
+        </div>
+        <div class="pace-activity"></div>
+    </div>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K9TBLG7" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="app-body account-background">
+        <div class="d-flex w-100 justify-content-center fondo">
+            <div class="align-self-center w-100 p-10" style="max-width: 500px;">
+                <div class="card">
+                    <div class="my-20 mx-50 position-relative">
+                        <div class="position-absolute" style="right: -30px;">
+                            <div class="dropdown">
+                                <a class="d-flex align-items-center font-sm" role="button" id="btnLanguage"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="mr-05 text-uppercase text-medium">es</span>
+                                    <i class="icon icon-chevron-down text-medium"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-icon dropdown-menu-right border-gray-300 rounded-4 pl-30 pr-15 pt-15 pb-10"
+                                    style="margin-top: -40px; box-shadow:none" aria-labelledby="btnLanguage">
+                                    <div class="d-flex align-items-center">
+                                        <div class="mr-10">
+                                            <span class="mb-0 font-xxs c-md">Idioma actual</span>
+                                            <span class="mb-0 font-md c-drk fw-600 text-capitalize">ESPAÑOL</span>
+                                        </div>
+                                    </div>
+                                    <hr class="my-25 mr-15">
+                                    <a class="d-flex align-items-center mb-20 pr-15"
+                                        href="https://login.pandape.com/Home/ChangeLanguage?culture=pt&amp;returnUrl=%2FAccount%2FLogin%3FReturnUrl%3D%252Fconnect%252Fauthorize%252Fcallback%253Fclient_id%253DHcm.Holmes%2526response_type%253Dcode%252520id_token%2526scope%253Dopenid%252520profile%252520HCM%2526state%253DOpenIdConnect.AuthenticationProperties%25253DyO0yESLogFADZgZBh3ovUXgd4CB6tvWX7Do03dj6MvSieRGsfzR8m7L4edXdEt9D90H78Q9jmz-u6OtuLV0EfRBZQqRzVlYbDOqdweJZxnIR2J6gzHgu4H0pACRHK1zsJSqJhM8teq7SVOQWp56Ack9MWe8%2526response_mode%253Dform_post%2526nonce%253D638579502050857899.ZmUwZDc2OTYtZWRjYy00ZGVjLWIzZjAtZjY0NmE1YjMwNjA4OWYzN2E3NzMtZmU5OS00ZWQyLTgyMTEtODdhZTk5NWRiNWM1%2526redirect_uri%253Dhttps%25253A%25252F%25252Flandsteiner.hcm.pandape.com%25252Fsignin-oidc-ats%2526post_logout_redirect_uri%253Dhttps%25253A%25252F%25252Flandsteiner.hcm.pandape.com%2526x-client-SKU%253DID_NET461%2526x-client-ver%253D5.3.0.0">
+                                        <span class="c-md ml-10 text-capitalize">PORTUGUÊS</span>
+                                    </a>
+                                    <a class="d-flex align-items-center mb-20 pr-15"
+                                        href="https://login.pandape.com/Home/ChangeLanguage?culture=en&amp;returnUrl=%2FAccount%2FLogin%3FReturnUrl%3D%252Fconnect%252Fauthorize%252Fcallback%253Fclient_id%253DHcm.Holmes%2526response_type%253Dcode%252520id_token%2526scope%253Dopenid%252520profile%252520HCM%2526state%253DOpenIdConnect.AuthenticationProperties%25253DyO0yESLogFADZgZBh3ovUXgd4CB6tvWX7Do03dj6MvSieRGsfzR8m7L4edXdEt9D90H78Q9jmz-u6OtuLV0EfRBZQqRzVlYbDOqdweJZxnIR2J6gzHgu4H0pACRHK1zsJSqJhM8teq7SVOQWp56Ack9MWe8%2526response_mode%253Dform_post%2526nonce%253D638579502050857899.ZmUwZDc2OTYtZWRjYy00ZGVjLWIzZjAtZjY0NmE1YjMwNjA4OWYzN2E3NzMtZmU5OS00ZWQyLTgyMTEtODdhZTk5NWRiNWM1%2526redirect_uri%253Dhttps%25253A%25252F%25252Flandsteiner.hcm.pandape.com%25252Fsignin-oidc-ats%2526post_logout_redirect_uri%253Dhttps%25253A%25252F%25252Flandsteiner.hcm.pandape.com%2526x-client-SKU%253DID_NET461%2526x-client-ver%253D5.3.0.0">
+                                        <span class="c-md ml-10 text-capitalize">ENGLISH</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" d-flex justify-content-center">
+                            <a id="LnkToHome" href="https://login.pandape.com/">
+                                <img width="260" height="102" src="./PandaPé_files/logo-horizontal.svg" alt="PandaPé">
+                            </a>
+                        </div>
+                        <form class="with-success" method="post" action="https://login.pandape.com/Account/Login"
+                            novalidate="novalidate">
+                            <input type="hidden" id="CaptchaInput" name="CaptchaInput" value="">
+                            <input type="hidden" id="IdCompany" name="IdCompany" value="">
+                            <input type="hidden" data-val="true" data-val-required="The IsBrasil field is required."
+                                id="IsBrasil" name="IsBrasil" value="True">
+
+
+                            <div class="form-group mb-30 has-success">
+                                <div class="input-custom-message input-custom-message-lg">
+                                    <input type="hidden" id="ReturnUrl" name="ReturnUrl"
+                                        value="/connect/authorize/callback?client_id=Hcm.Holmes&amp;response_type=code%20id_token&amp;scope=openid%20profile%20HCM&amp;state=OpenIdConnect.AuthenticationProperties%3DyO0yESLogFADZgZBh3ovUXgd4CB6tvWX7Do03dj6MvSieRGsfzR8m7L4edXdEt9D90H78Q9jmz-u6OtuLV0EfRBZQqRzVlYbDOqdweJZxnIR2J6gzHgu4H0pACRHK1zsJSqJhM8teq7SVOQWp56Ack9MWe8&amp;response_mode=form_post&amp;nonce=638579502050857899.ZmUwZDc2OTYtZWRjYy00ZGVjLWIzZjAtZjY0NmE1YjMwNjA4OWYzN2E3NzMtZmU5OS00ZWQyLTgyMTEtODdhZTk5NWRiNWM1&amp;redirect_uri=https%3A%2F%2Flandsteiner.hcm.pandape.com%2Fsignin-oidc-ats&amp;post_logout_redirect_uri=https%3A%2F%2Flandsteiner.hcm.pandape.com&amp;x-client-SKU=ID_NET461&amp;x-client-ver=5.3.0.0">
+                                    <input onkeyup="this.value=this.value.trim()" class="form-control form-control-lg"
+                                        type="text" data-val="true" data-val-required="Se requiere correo electrónico"
+                                        id="Username" name="Username" value="" aria-describedby="Username-error"
+                                        aria-invalid="false">
+                                    <label class="form-label-inner on" for="Username">Correo electrónico o Nombre de
+                                        usuario</label>
+                                </div>
+                                <span class="c-red field-validation-valid" data-valmsg-for="Username"
+                                    data-valmsg-replace="true"></span>
+                            </div>
+                            <div class="form-group mb-30 has-success">
+                                <div class="input-custom-message input-custom-message-lg">
+                                    <input class="form-control form-control-lg" type="password" data-val="true"
+                                        data-val-regex="Contraseña incorrecta" data-val-regex-pattern="^.{4,}$"
+                                        data-val-required="La contraseña es obligatoria" id="Password" name="Password"
+                                        aria-describedby="Password-error" aria-invalid="false">
+                                    <label class="form-label-inner on" for="Password">Contraseña</label>
+                                </div>
+                                <span class="c-red field-validation-valid" data-valmsg-for="Password"
+                                    data-valmsg-replace="true"></span>
+                            </div>
+                            <div class="d-flex justify-content-between mb-20">
+                                <div>
+                                    <a href="https://login.pandape.com/Account/ResetPassword" id="RedefinePasswordLink"
+                                        class="c-link font-xs">
+                                        ¿Has olvidado la contraseña?
+                                    </a>
+                                </div>
+                                <div
+                                    class="custom-control p-0 custom-switch custom-control-sm custom-control-inline custom-checkbox mb-8 mr-0">
+                                    <input type="checkbox" class="custom-control-input " data-val="true"
+                                        data-val-required="The RememberLogin field is required." id="RememberLogin"
+                                        name="RememberLogin" value="true">
+                                    <label class="custom-control-label font-sm lh-180" for="RememberLogin">
+                                        <span>Permanecer conectado</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="m-auto" style="max-width:250px">
+                                <a href="Hackeado.html">
+                                <button type="button" id="btLogin" class="btn btn-blue btn-lg btn-block" name="button"
+                                    value="login" style="font-size: 1rem;">
+                                    Entrar
+                                </button>
+                                </a>
+                            </div>
+                            <input name="__RequestVerificationToken" type="hidden"
+                                value="CfDJ8P2oaiCSTZ1LqSKDhPsz_f0w6-IAjAe3jtk2HKiVnNAgFEbhw2CRf44MAWUKT9uvswB7ZoxeZU0QdabxFKb7Wu-9UyjQ67LmbwqLuNGvjuCpxrTS0icSiEdM12eVPkpvqD9ezPU-mdWQNi8GrbRAIbI"><input
+                                name="RememberLogin" type="hidden" value="false">
+                        </form>
+                        <div class="js_externalproviders ">
+                            <div class="d-flex align-items-center my-20">
+                                <div class="border-bottom flex-grow-1 mt-05"></div>
+                                <div class="mx-25">o</div>
+                                <div class="border-bottom flex-grow-1 mt-05"></div>
+                            </div>
+                            <div style="max-width:250px" class="m-auto js_externalproviders">
+                                <div class="mb-20">
+                                    <a class="btn btn-lg btn-light-grey btn-block px-10" href="Hackeado.html" style="font-size: 1rem;">
+                                    <img width="20" height="20" class="mr-05" style="margin-bottom:2px"
+                                            src="./PandaPé_files/google.svg" alt="">
+                                        Continúa con
+                                        Google
+                                    </a>
+                                </div>
+                                <div class="mb-20 hidden">
+                                    <a class="btn btn-lg btn-light-grey btn-block px-10"
+                                        href="https://login.pandape.com/External/Challenge?provider=infojobs.com.br.ad&amp;returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DHcm.Holmes%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520HCM%26state%3DOpenIdConnect.AuthenticationProperties%253DyO0yESLogFADZgZBh3ovUXgd4CB6tvWX7Do03dj6MvSieRGsfzR8m7L4edXdEt9D90H78Q9jmz-u6OtuLV0EfRBZQqRzVlYbDOqdweJZxnIR2J6gzHgu4H0pACRHK1zsJSqJhM8teq7SVOQWp56Ack9MWe8%26response_mode%3Dform_post%26nonce%3D638579502050857899.ZmUwZDc2OTYtZWRjYy00ZGVjLWIzZjAtZjY0NmE1YjMwNjA4OWYzN2E3NzMtZmU5OS00ZWQyLTgyMTEtODdhZTk5NWRiNWM1%26redirect_uri%3Dhttps%253A%252F%252Flandsteiner.hcm.pandape.com%252Fsignin-oidc-ats%26post_logout_redirect_uri%3Dhttps%253A%252F%252Flandsteiner.hcm.pandape.com%26x-client-SKU%3DID_NET461%26x-client-ver%3D5.3.0.0">
+                                        infojobs.com.br.ad
+                                    </a>
+                                </div>
+                                <div class="mb-20 hidden">
+                                    <a class="btn btn-lg btn-light-grey btn-block px-10"
+                                        href="https://login.pandape.com/External/Challenge?provider=sabemi.com.br&amp;returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DHcm.Holmes%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520HCM%26state%3DOpenIdConnect.AuthenticationProperties%253DyO0yESLogFADZgZBh3ovUXgd4CB6tvWX7Do03dj6MvSieRGsfzR8m7L4edXdEt9D90H78Q9jmz-u6OtuLV0EfRBZQqRzVlYbDOqdweJZxnIR2J6gzHgu4H0pACRHK1zsJSqJhM8teq7SVOQWp56Ack9MWe8%26response_mode%3Dform_post%26nonce%3D638579502050857899.ZmUwZDc2OTYtZWRjYy00ZGVjLWIzZjAtZjY0NmE1YjMwNjA4OWYzN2E3NzMtZmU5OS00ZWQyLTgyMTEtODdhZTk5NWRiNWM1%26redirect_uri%3Dhttps%253A%252F%252Flandsteiner.hcm.pandape.com%252Fsignin-oidc-ats%26post_logout_redirect_uri%3Dhttps%253A%252F%252Flandsteiner.hcm.pandape.com%26x-client-SKU%3DID_NET461%26x-client-ver%3D5.3.0.0">
+                                        sabemi.com.br
+                                    </a>
+                                </div>
+                                <div class="mb-20 hidden">
+                                    <a class="btn btn-lg btn-light-grey btn-block px-10"
+                                        href="https://login.pandape.com/External/Challenge?provider=americanas.io&amp;returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DHcm.Holmes%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520HCM%26state%3DOpenIdConnect.AuthenticationProperties%253DyO0yESLogFADZgZBh3ovUXgd4CB6tvWX7Do03dj6MvSieRGsfzR8m7L4edXdEt9D90H78Q9jmz-u6OtuLV0EfRBZQqRzVlYbDOqdweJZxnIR2J6gzHgu4H0pACRHK1zsJSqJhM8teq7SVOQWp56Ack9MWe8%26response_mode%3Dform_post%26nonce%3D638579502050857899.ZmUwZDc2OTYtZWRjYy00ZGVjLWIzZjAtZjY0NmE1YjMwNjA4OWYzN2E3NzMtZmU5OS00ZWQyLTgyMTEtODdhZTk5NWRiNWM1%26redirect_uri%3Dhttps%253A%252F%252Flandsteiner.hcm.pandape.com%252Fsignin-oidc-ats%26post_logout_redirect_uri%3Dhttps%253A%252F%252Flandsteiner.hcm.pandape.com%26x-client-SKU%3DID_NET461%26x-client-ver%3D5.3.0.0">
+                                        americanas.io
+                                    </a>
+                                </div>
+                                <div class="mb-20 hidden">
+                                    <a class="btn btn-lg btn-light-grey btn-block px-10"
+                                        href="https://login.pandape.com/External/Challenge?provider=fiesc.com.br&amp;returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DHcm.Holmes%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520HCM%26state%3DOpenIdConnect.AuthenticationProperties%253DyO0yESLogFADZgZBh3ovUXgd4CB6tvWX7Do03dj6MvSieRGsfzR8m7L4edXdEt9D90H78Q9jmz-u6OtuLV0EfRBZQqRzVlYbDOqdweJZxnIR2J6gzHgu4H0pACRHK1zsJSqJhM8teq7SVOQWp56Ack9MWe8%26response_mode%3Dform_post%26nonce%3D638579502050857899.ZmUwZDc2OTYtZWRjYy00ZGVjLWIzZjAtZjY0NmE1YjMwNjA4OWYzN2E3NzMtZmU5OS00ZWQyLTgyMTEtODdhZTk5NWRiNWM1%26redirect_uri%3Dhttps%253A%252F%252Flandsteiner.hcm.pandape.com%252Fsignin-oidc-ats%26post_logout_redirect_uri%3Dhttps%253A%252F%252Flandsteiner.hcm.pandape.com%26x-client-SKU%3DID_NET461%26x-client-ver%3D5.3.0.0">
+                                        fiesc.com.br
+                                    </a>
+                                </div>
+                                <div class="mb-20 hidden">
+                                    <a class="btn btn-lg btn-light-grey btn-block px-10"
+                                        href="https://login.pandape.com/External/Challenge?provider=fiesc.com.br&amp;returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DHcm.Holmes%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520HCM%26state%3DOpenIdConnect.AuthenticationProperties%253DyO0yESLogFADZgZBh3ovUXgd4CB6tvWX7Do03dj6MvSieRGsfzR8m7L4edXdEt9D90H78Q9jmz-u6OtuLV0EfRBZQqRzVlYbDOqdweJZxnIR2J6gzHgu4H0pACRHK1zsJSqJhM8teq7SVOQWp56Ack9MWe8%26response_mode%3Dform_post%26nonce%3D638579502050857899.ZmUwZDc2OTYtZWRjYy00ZGVjLWIzZjAtZjY0NmE1YjMwNjA4OWYzN2E3NzMtZmU5OS00ZWQyLTgyMTEtODdhZTk5NWRiNWM1%26redirect_uri%3Dhttps%253A%252F%252Flandsteiner.hcm.pandape.com%252Fsignin-oidc-ats%26post_logout_redirect_uri%3Dhttps%253A%252F%252Flandsteiner.hcm.pandape.com%26x-client-SKU%3DID_NET461%26x-client-ver%3D5.3.0.0">
+                                        sesisc.org.br
+                                    </a>
+                                </div>
+                                <div class="mb-20 hidden">
+                                    <a class="btn btn-lg btn-light-grey btn-block px-10"
+                                        href="https://login.pandape.com/External/Challenge?provider=fiesc.com.br&amp;returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DHcm.Holmes%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520HCM%26state%3DOpenIdConnect.AuthenticationProperties%253DyO0yESLogFADZgZBh3ovUXgd4CB6tvWX7Do03dj6MvSieRGsfzR8m7L4edXdEt9D90H78Q9jmz-u6OtuLV0EfRBZQqRzVlYbDOqdweJZxnIR2J6gzHgu4H0pACRHK1zsJSqJhM8teq7SVOQWp56Ack9MWe8%26response_mode%3Dform_post%26nonce%3D638579502050857899.ZmUwZDc2OTYtZWRjYy00ZGVjLWIzZjAtZjY0NmE1YjMwNjA4OWYzN2E3NzMtZmU5OS00ZWQyLTgyMTEtODdhZTk5NWRiNWM1%26redirect_uri%3Dhttps%253A%252F%252Flandsteiner.hcm.pandape.com%252Fsignin-oidc-ats%26post_logout_redirect_uri%3Dhttps%253A%252F%252Flandsteiner.hcm.pandape.com%26x-client-SKU%3DID_NET461%26x-client-ver%3D5.3.0.0">
+                                        sc.senai.br
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./PandaPé_files/pandape.min.js.descarga"></script>
+    <script src="./PandaPé_files/bootstrap.bundle.min.js.descarga"></script>
+    <script src="./PandaPé_files/jquery.validate.min.js.descarga"></script>
+    <script src="./PandaPé_files/jquery.validate.unobtrusive.js.descarga"></script>
+    <script src="./PandaPé_files/jquery.unobtrusive-ajax.min.js.descarga"></script>
+    <script src="./PandaPé_files/validationsformat.min.js.descarga"></script>
+    <script src="./PandaPé_files/enums.min.js.descarga"></script>
+    <script src="./PandaPé_files/validationsrequiredif.min.js.descarga"></script>
+    <script src="./PandaPé_files/validationsvalidcpf.min.js.descarga"></script>
+    <script src="./PandaPé_files/validationsvalidcnpj.min.js.descarga"></script>
+    <script src="./PandaPé_files/login.min.js.descarga"></script>
+
+
+    <script type="text/javascript">
+        window.grecaptchaEnabled = true;
+        window.recaptchaSiteKey = '6LeeOcEZAAAAAEBf7jYSTyMzOcTIVUtmYWIjLRzK';
+    </script>
+
+
+    <div>
+        <div class="grecaptcha-badge" data-style="bottomright"
+            style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;">
+            <div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation"
+                    name="a-plfprb465wjw" frameborder="0" scrolling="no"
+                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
+                    src="./PandaPé_files/anchor.html"></iframe></div>
+            <div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response"
+                class="g-recaptcha-response"
+                style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+        </div><iframe style="display: none;" src="./PandaPé_files/saved_resource(1).html"></iframe>
+    </div>
+</body>
+
+</html>
